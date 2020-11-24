@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const config = require('./config/site')
 const activeEnv = process.env.GATSBY_ACTIVE_ENV || process.env.NODE_ENV || "production"
 
@@ -12,12 +13,31 @@ console.log(`WordPress GraphQL endpoint: '${process.env.WPGRAPHQL_URL}'`)
 module.exports = {
   siteMetadata: {
     ...config,
+=======
+require("dotenv").config({
+  path: `.env`,
+})
+
+// require .env.development or .env.production
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
+module.exports = {
+  siteMetadata: {
+    title: `Gatsby WordPress Twenty Twenty`,
+    description: `Gatsby starter site for Twenty Twenty Gatsby Theme.`,
+    author: `@henrikwirth`,
+>>>>>>> upstream/master
   },
   plugins: [
     `gatsby-plugin-notifications`,
     `gatsby-plugin-sharp`,
+<<<<<<< HEAD
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-catch-links`,
+=======
+>>>>>>> upstream/master
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -64,12 +84,16 @@ module.exports = {
         },
       },
     },
+<<<<<<< HEAD
     `gatsby-theme-wordpress-gutenberg`,
+=======
+>>>>>>> upstream/master
     `gatsby-transformer-sharp`,
     {
       resolve: "gatsby-plugin-react-svg",
       options: {
         rule: {
+<<<<<<< HEAD
           include: /\.inline\.svg$/,
         },
       },
@@ -103,5 +127,11 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
+=======
+          include: /\.inline\.svg$/, // See below to configure properly
+        },
+      },
+    },
+>>>>>>> upstream/master
   ],
 }
