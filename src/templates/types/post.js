@@ -13,11 +13,7 @@ export default ({ data }) => {
   const { nextPage, previousPage, page } = data
   const {
     title,
-<<<<<<< HEAD
-    Blocks,
-=======
     content,
->>>>>>> upstream/master
     featuredImage,
     categories,
     excerpt,
@@ -56,11 +52,7 @@ export default ({ data }) => {
         <div className="post-inner thin">
           <div
             className="entry-content"
-<<<<<<< HEAD
-            dangerouslySetInnerHTML={{ __html: Blocks }}
-=======
             dangerouslySetInnerHTML={{ __html: content }}
->>>>>>> upstream/master
           />
         </div>
 

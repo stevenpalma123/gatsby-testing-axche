@@ -15,11 +15,7 @@ const FooterMenusWidgets = ({}) => {
               <div className="widget widget_text">
                 <div className="widget-content">
                   <h2 className="widget-title subheading heading-size-3">
-<<<<<<< HEAD
                     Footer Links
-=======
-                    About This Site
->>>>>>> upstream/master
                   </h2>
                   <div className="textwidget">
                     <p>
