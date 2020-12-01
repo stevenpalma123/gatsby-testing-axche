@@ -293,7 +293,7 @@
     "chalk" "^2.0.0"
     "js-tokens" "^4.0.0"
 
-"@babel/parser@^7.0.0", "@babel/parser@^7.10.5", "@babel/parser@^7.12.5", "@babel/parser@^7.12.7", "@babel/parser@^7.4.4", "@babel/parser@^7.7.0":
+"@babel/parser@^7.0.0", "@babel/parser@^7.10.5", "@babel/parser@^7.12.5", "@babel/parser@^7.12.7", "@babel/parser@^7.7.0":
   "integrity" "sha512-oWR02Ubp4xTLCAqPRiNIuMVgNO5Aif/xpXtabhzW2HWUD47XJsAB4Zd/Rg30+XeQA3juXigV7hlquOTmwqLiwg=="
   "resolved" "https://registry.npmjs.org/@babel/parser/-/parser-7.12.7.tgz"
   "version" "7.12.7"
@@ -1024,7 +1024,7 @@
     "@babel/parser" "^7.12.7"
     "@babel/types" "^7.12.7"
 
-"@babel/traverse@^7.0.0", "@babel/traverse@^7.10.4", "@babel/traverse@^7.10.5", "@babel/traverse@^7.12.1", "@babel/traverse@^7.12.5", "@babel/traverse@^7.12.9", "@babel/traverse@^7.4.4", "@babel/traverse@^7.7.0":
+"@babel/traverse@^7.0.0", "@babel/traverse@^7.10.4", "@babel/traverse@^7.10.5", "@babel/traverse@^7.12.1", "@babel/traverse@^7.12.5", "@babel/traverse@^7.12.9", "@babel/traverse@^7.7.0":
   "integrity" "sha512-iX9ajqnLdoU1s1nHt36JDI9KG4k+vmI8WgjK5d+aDTwQbL2fUnzedNedssA645Ede3PM2ma1n8Q4h2ohwXgMXw=="
   "resolved" "https://registry.npmjs.org/@babel/traverse/-/traverse-7.12.9.tgz"
   "version" "7.12.9"
@@ -7909,7 +7909,7 @@
     "yoga-layout-prebuilt" "^1.9.6"
     "yurnalist" "^1.1.2"
 
-"gatsby-core-utils@^1.3.20", "gatsby-core-utils@^1.3.24", "gatsby-core-utils@^1.5.0":
+"gatsby-core-utils@^1.3.20", "gatsby-core-utils@^1.5.0":
   "integrity" "sha512-hCt44m7I9Kmra/iVJwrmHXK8WFK9I1JwXQZquIVZ/JaG8UgqroxW1wpsY7ColbHGMATOmp13Efqn02VNPnms5Q=="
   "resolved" "https://registry.npmjs.org/gatsby-core-utils/-/gatsby-core-utils-1.5.0.tgz"
   "version" "1.5.0"
@@ -7954,20 +7954,6 @@
     "@types/reach__router" "^1.3.6"
     "prop-types" "^15.7.2"
 
-"gatsby-page-utils@^0.2.10":
-  "integrity" "sha512-H4a6VgDuO4Obd2UgZmfHCnpN3D6NOOpcgVSf8XuC7fmksVhQ3L2v7zw7y/TNS1Fz74yEKffnaF9pqRfkg8D/yg=="
-  "resolved" "https://registry.npmjs.org/gatsby-page-utils/-/gatsby-page-utils-0.2.30.tgz"
-  "version" "0.2.30"
-  dependencies:
-    "@babel/runtime" "^7.11.2"
-    "bluebird" "^3.7.2"
-    "chokidar" "^3.4.3"
-    "fs-exists-cached" "^1.0.0"
-    "gatsby-core-utils" "^1.3.24"
-    "glob" "^7.1.6"
-    "lodash" "^4.17.20"
-    "micromatch" "^4.0.2"
-
 "gatsby-page-utils@^0.4.0":
   "integrity" "sha512-wYUoMZ7a0fOKnoHW3R0CE+9Nh0dPoOvK2WEydEVt65K0WFkirha/aThXEvKI0iI3PJsMAxhqH0BS4Ygxhe2Pug=="
   "resolved" "https://registry.npmjs.org/gatsby-page-utils/-/gatsby-page-utils-0.4.0.tgz"
@@ -8005,16 +7991,6 @@
   dependencies:
     "@babel/runtime" "^7.12.5"
     "minimatch" "3.0.4"
-
-"gatsby-plugin-graphql-component@^0.2.2":
-  "integrity" "sha512-RTCIqHC0hkyO0jrYPXqHeZcLmobvITNpXavwxwya2ng0xdGbNFqOA75O4LiZp8bxV2Wuwlz1BmBh956jFZ83GQ=="
-  "resolved" "https://registry.npmjs.org/gatsby-plugin-graphql-component/-/gatsby-plugin-graphql-component-0.2.4.tgz"
-  "version" "0.2.4"
-  dependencies:
-    "fs-extra" "^9.0.1"
-    "graphql-type-json" "^0.3.1"
-    "jsonfile" "^6.0.1"
-    "lodash" "^4.17.15"
 
 "gatsby-plugin-manifest@^2.7.0":
   "integrity" "sha512-6EG4Qth11C9ZLwgxQFl5TKAjtLAPoeteF68f+CWimv45wNxZausDbppFJgpOBmmPDucPiA62GSq30JT8icDJOQ=="
@@ -8299,18 +8275,6 @@
     "node-fetch" "^2.6.1"
     "uuid" "3.4.0"
 
-"gatsby-theme-wordpress-gutenberg@^0.1.0":
-  "integrity" "sha512-o7UDtFV6YE8WmnTYoQwfgi7+uHPJykpSUxoxNAbQDT/+QebO7gMrYhcD7Ig/HCFn2poj1s2Uzb5zm56tW3ynsw=="
-  "resolved" "https://registry.npmjs.org/gatsby-theme-wordpress-gutenberg/-/gatsby-theme-wordpress-gutenberg-0.1.0.tgz"
-  "version" "0.1.0"
-  dependencies:
-    "fs-extra" "^9.0.1"
-    "gatsby-page-utils" "^0.2.10"
-    "gatsby-plugin-graphql-component" "^0.2.2"
-    "graphql-tag-pluck" "^0.8.7"
-    "humps" "^2.0.1"
-    "jsonfile" "^6.0.1"
-
 "gatsby-transformer-sharp@^2.5.10", "gatsby-transformer-sharp@^2.5.13":
   "integrity" "sha512-npJtQUnpzKJa+KD0kwofrstr5i4oCemuzEMW859sdAzg+5PbbS5TjxytP6Q9U93WsRFPV5pGi6XJbKjSWC0F9Q=="
   "resolved" "https://registry.npmjs.org/gatsby-transformer-sharp/-/gatsby-transformer-sharp-2.7.0.tgz"
@@ -8324,7 +8288,7 @@
     "semver" "^7.3.2"
     "sharp" "^0.26.3"
 
-"gatsby@^2.0.0", "gatsby@^2.0.15", "gatsby@^2.12.1", "gatsby@^2.2.0", "gatsby@^2.24.47", "gatsby@^2.24.79", "gatsby@^2.25.0", "gatsby@^2.4.0", "gatsby@>2.0.15", "gatsby@>2.23.0":
+"gatsby@^2.0.0", "gatsby@^2.0.15", "gatsby@^2.12.1", "gatsby@^2.2.0", "gatsby@^2.24.47", "gatsby@^2.24.79", "gatsby@^2.25.0", "gatsby@^2.4.0", "gatsby@>2.0.15":
   "integrity" "sha512-q7d7cyELLAIyfaQ2TyXHvbz1yQmgjznQUX6gsxRoGA+yJbDvPmHYnn53JOD1/4+DAM/cm1RhAhuC/BMO3FbOsA=="
   "resolved" "https://registry.npmjs.org/gatsby/-/gatsby-2.27.2.tgz"
   "version" "2.27.2"
@@ -8929,22 +8893,12 @@
   dependencies:
     "iterall" "^1.2.1"
 
-"graphql-tag-pluck@^0.8.7":
-  "integrity" "sha512-yuWcQislvBPHorFQzmZ9/yY0nPD1rn1kBNOr6iPXzT+iJ/i/pciq8Z7ilnVJAGKaJXV58ovD+AWWYYjX6IFF9g=="
-  "resolved" "https://registry.npmjs.org/graphql-tag-pluck/-/graphql-tag-pluck-0.8.7.tgz"
-  "version" "0.8.7"
-  dependencies:
-    "@babel/parser" "^7.4.4"
-    "@babel/traverse" "^7.4.4"
-    "@babel/types" "^7.4.4"
-    "source-map-support" "^0.5.12"
-
 "graphql-type-json@^0.2.4":
   "integrity" "sha512-/tq02ayMQjrG4oDFDRLLrPk0KvJXue0nVXoItBe7uAdbNXjQUu+HYCBdAmPLQoseVzUKKMzrhq2P/sfI76ON6w=="
   "resolved" "https://registry.npmjs.org/graphql-type-json/-/graphql-type-json-0.2.4.tgz"
   "version" "0.2.4"
 
-"graphql-type-json@^0.3.1", "graphql-type-json@^0.3.2":
+"graphql-type-json@^0.3.2":
   "integrity" "sha512-J+vjof74oMlCWXSvt0DOf2APEdZOCdubEvGDUAlqH//VBYcOYsGgRW7Xzorr44LvkjiuvecWc8fChxuZZbChtg=="
   "resolved" "https://registry.npmjs.org/graphql-type-json/-/graphql-type-json-0.3.2.tgz"
   "version" "0.3.2"
@@ -9335,11 +9289,6 @@
   "integrity" "sha512-SEQu7vl8KjNL2eoGBLF3+wAjpsNfA9XMlXAYj/3EdaNfAlxKthD1xjEQfGOUhllCGGJVNY34bRr6lPINhNjyZw=="
   "resolved" "https://registry.npmjs.org/human-signals/-/human-signals-1.1.1.tgz"
   "version" "1.1.1"
-
-"humps@^2.0.1":
-  "integrity" "sha1-3QLqYIG9BWjcXQcxhEY5V7qe+ao="
-  "resolved" "https://registry.npmjs.org/humps/-/humps-2.0.1.tgz"
-  "version" "2.0.1"
 
 "iconv-lite@^0.4.17", "iconv-lite@^0.4.24", "iconv-lite@0.4.24":
   "integrity" "sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA=="
@@ -14161,7 +14110,7 @@
     "prop-types" "^15.6.2"
     "react-lifecycles-compat" "^3.0.4"
 
-"react-typography@^0.16.1 || ^1.0.0-alpha.0", "react-typography@^0.16.19":
+"react-typography@^0.16.1 || ^1.0.0-alpha.0":
   "integrity" "sha512-kV2qLEsdm0x9P4YXQEDVc88tDb4Vg0h/vdVZGgbqaRn8ERvNzV76JHUeOby3vvcUYU5MPd5Kz5DPH9Bhp4I/iw=="
   "resolved" "https://registry.npmjs.org/react-typography/-/react-typography-0.16.19.tgz"
   "version" "0.16.19"
@@ -15613,7 +15562,7 @@
     "source-map-url" "^0.4.0"
     "urix" "^0.1.0"
 
-"source-map-support@^0.5.12", "source-map-support@^0.5.16", "source-map-support@^0.5.17", "source-map-support@^0.5.19", "source-map-support@~0.5.12":
+"source-map-support@^0.5.16", "source-map-support@^0.5.17", "source-map-support@^0.5.19", "source-map-support@~0.5.12":
   "integrity" "sha512-Wonm7zOCIJzBGQdB+thsPar0kYuCIzYvxZwlBa87yi/Mdjv7Tip2cyVbLj5o0cFPN4EVkuTwb3GDDyUx2DGnGw=="
   "resolved" "https://registry.npmjs.org/source-map-support/-/source-map-support-0.5.19.tgz"
   "version" "0.5.19"
