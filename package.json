@@ -17,6 +17,7 @@
     "serve": "gatsby serve"
   },
   "dependencies": {
+    "@wordpress/block-library": "^2.26.5",
     "cache-manager-fs-hash": "^0.0.9",
     "dotenv": "^8.2.0",
     "gatsby": "^2.24.47",
@@ -34,7 +35,6 @@
     "gatsby-plugin-sitemap": "^2.7.0",
     "gatsby-plugin-typography": "^2.7.0",
     "gatsby-source-filesystem": "^2.3.24",
-    "gatsby-source-wordpress": "^3.6.0",
     "gatsby-source-wordpress-experimental": "^1.3.6",
     "gatsby-theme-wordpress-gutenberg": "^0.1.0",
     "gatsby-transformer-sharp": "^2.5.13",
