@@ -7,7 +7,6 @@ A custom fork of the WordPress Twenty Twenty theme to Gatsby.
 -  Comments are not implemented yet.
 -  The monthly archive pages are not implemented.
 -  Tags are not implemented (only Categories).
--  Surely there is more. Feel free to suggest things as issues.
 
 ## TODO
 
