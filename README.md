@@ -4,9 +4,8 @@ A custom fork of the WordPress Twenty Twenty theme to Gatsby.
 
 ## Setup and Usage
 
-Follow upstream repo instructions here: [@henrikwirth/gatsby-starter-wordpress-twenty-twenty](https://github.com/henrikwirth/gatsby-starter-wordpress-twenty-twenty)
-
-## Update WordPress Twenty Twenty theme `functions.php` menus
+-  Follow upstream repo instructions here: [@henrikwirth/gatsby-starter-wordpress-twenty-twenty](https://github.com/henrikwirth/gatsby-starter-wordpress-twenty-twenty)
+-  Update WordPress Twenty Twenty theme `functions.php` menus
 
 ```
 /**
@@ -32,15 +31,24 @@ function twentytwenty_menus() {
 add_action( 'init', 'twentytwenty_menus' );
 ```
 
+## Additions
+
+-  Contact form
+-  Landing page
+
 ## Limitations
 
--  Comments are not implemented yet.
+-  Comments are not implemented.
 -  The monthly archive pages are not implemented.
 -  Tags are not implemented (only Categories).
 
 ## TODO
 
 -  Featured images
+-  Google Analytics
+-  Google Maps
+-  Formspree/Netlify forms
+-  Customizer
 
 ## Acknowledgements
 
