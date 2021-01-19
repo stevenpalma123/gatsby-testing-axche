@@ -1,11 +1,9 @@
 # Gatsby Starter - WordPress Twenty Twenty
 
-A custom fork of the WordPress Twenty Twenty theme to Gatsby.
-
 ## Setup and Usage
 
 -  Follow upstream repo instructions here: [@henrikwirth/gatsby-starter-wordpress-twenty-twenty](https://github.com/henrikwirth/gatsby-starter-wordpress-twenty-twenty)
--  Update WordPress Twenty Twenty theme `functions.php` menus
+-  To add additional footer widget menus, update the WordPress Twenty Twenty theme `functions.php`:
 
 ```
 /**
@@ -31,10 +29,11 @@ function twentytwenty_menus() {
 add_action( 'init', 'twentytwenty_menus' );
 ```
 
-## Additions
+## Additional Features
 
--  Contact form
+-  Netlify contact form
 -  Landing page
+-  Footer widget menus
 
 ## Limitations
 
@@ -47,7 +46,6 @@ add_action( 'init', 'twentytwenty_menus' );
 -  Featured images
 -  Google Analytics
 -  Google Maps
--  Formspree/Netlify forms
 -  Customizer
 
 ## Acknowledgements
