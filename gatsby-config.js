@@ -74,20 +74,6 @@ module.exports = {
         },
       },
     },
-    // {
-    //   resolve: 'gatsby-plugin-typography',
-    //   options: {
-    //     pathToConfigModule: `${__dirname}/config/typography.js`,
-    //   },
-    // },
-    // {
-    //   resolve: `gatsby-plugin-emotion`,
-    //   options: {
-    //     autoLabel: process.env.NODE_ENV !== 'production',
-    //     // eslint-disable-next-line
-    //     labelFormat: `[filename]--[local]`,
-    //   },
-    // },
     `gatsby-plugin-sitemap`,
     {
       resolve: 'gatsby-plugin-manifest',

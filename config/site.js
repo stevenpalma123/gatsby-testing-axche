@@ -5,7 +5,7 @@ module.exports = {
   description: 'Ya\'axché Conservation Trust',
   url: 'https://yaaxche.org', // Domain of your site. No trailing slash!
   siteUrl: 'https://yaaxche.org', // url + pathPrefix
-  blogUri: '/blog',
+  blogUri: '/news',
   siteLanguage: 'en', // Language Tag on <html> element
   logo: 'src/assets/images/logo.png', // Used for SEO
   banner: 'src/assets/images/banner.png',

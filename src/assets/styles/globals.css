@@ -1,16 +1,16 @@
 :root {
   /* COLORS */
-  --primaryColor: #B3210D;
-  --secondaryColor: #8A000D;
-  --tertiaryColor: #7C0A02;
-  --transparentColor: transparent;
-  --blackColor: black;
-  --whiteColor: #e7e7de;
-  --lightGrayColor: #c2c2be;
-  --borderColor: #008891;
+  --primaryColor: #1B5C22;
+  --secondaryColor: #FBDE18;
+  --tertiaryColor: #2E2E30;
+  --transparentColor: rgba(27,92,34,0.5);
+  --blackColor: #2E2E30;
+  --whiteColor: #FFFFFF;
+  --lightGrayColor: #797979;
+  --borderColor: #1B5C22;
 
   /* BACKGROUNDS */
-  --backgroundUrl: center center repeat #000 url('https://cdn.weldingsmostwanted.com/uploads/weldingsmostwanted-background-diamond-plate-4.jpg');
+  --backgroundUrl: center center repeat #000 url('');
   --backgroundSize: 200px;
 
   /* TYPOGRAPHY */
@@ -20,12 +20,13 @@
 
   /* RESPONSIVE BREAKPOINTS & FIXES */
   --smallMaxWidth: 100%;
-  --largeMaxWidth: 90%;
+  --largeMaxWidth: 100%;
   --smallWidth: 90%;
   --largeWidth: 80%;
   --smallPostLeftMargin: 2%;
   --largePostLeftMargin: 4%;
 
   /* MARGINS AND PADDINGS */
-  --marginBottom: 1rem;
+  --marginTop: 2rem;
+  --marginBottom: 2rem;
 }

@@ -23,7 +23,7 @@ function Seo({ description, lang, meta, keywords, title }) {
             htmlAttributes={{
               lang,
             }}
-            title={titleText}
+            title={"Ya’axché Conservation Fund"}
             titleTemplate={`%s`}
             meta={[
               {

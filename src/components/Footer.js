@@ -12,32 +12,7 @@ const Footer = ({}) => {
             © {new Date().getFullYear()}{" "}
             <Link to={"/"}>{config.company}</Link>
           </p>
-          <p className="additional-text">
-            Made with &hearts; and{" "}
-            <a
-              className=""
-              href="https://www.gatsbyjs.com/"
-              rel="noreferrer noopener"
-            >
-               Gatsby.js
-            </a>
-          </p>
         </div>
-
-        <a className="to-the-top" href="#site-header">
-          <span className="to-the-top-long">
-            To the top{" "}
-            <span className="arrow" aria-hidden="true">
-              ↑
-            </span>
-          </span>
-          <span className="to-the-top-short">
-            Up{" "}
-            <span className="arrow" aria-hidden="true">
-              ↑
-            </span>
-          </span>
-        </a>
       </div>
     </footer>
   )

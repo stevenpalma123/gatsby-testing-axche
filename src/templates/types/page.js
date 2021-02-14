@@ -18,17 +18,6 @@ export default ({ data }) => {
         className={`post-${databaseId} post page type-page status-publish hentry`}
         id={`post-${databaseId}`}
       >
-        <header className="entry-header has-text-align-center header-footer-group">
-          <div className="entry-header-inner section-inner medium">
-            <h1
-              className="entry-title"
-              dangerouslySetInnerHTML={{ __html: title }}
-            />
-          </div>
-        </header>
-
-        <FeaturedMedia image={featuredImage} />
-
         <div className="post-inner thin">
           <div
             className="entry-content"
