@@ -304,7 +304,13 @@ main#site-content {
   justify-content: var(--footerJustifyContent);
 }
 .footer-social {
-  margin-top: 4rem !important;
+  margin: 4rem 0px 2rem 0px !important;
+}
+.footer-social li:first-of-type {
+  margin-left: 0px !important;
+}
+.footer-social.fill-children-current-color path {
+  fill: var(--whiteColor) !important;
 }
 
 /* FOOTER WIDGETS */
@@ -328,6 +334,7 @@ main#site-content {
 }
 ul.social-icons {
   justify-content: center !important;
+  width: 100%;
 }
 @media (max-width: 700px) {
   .footer-widgets-outer-wrapper {
