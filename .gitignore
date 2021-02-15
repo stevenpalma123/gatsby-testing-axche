@@ -71,4 +71,5 @@ yarn-error.log
 !.env.example
 .DS_Store
 
-
+# conflicting package managers - I USE YARN
+package-lock.json
