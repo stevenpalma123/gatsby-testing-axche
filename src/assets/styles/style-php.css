@@ -87,8 +87,12 @@ body:not(.overlay-header) .primary-menu > li > .icon,
   flex-direction: column;
   justify-content: center;
 }
+.wp-block-cover-image,
+.wp-block-cover {
+  min-height: auto !important;
+}
 .wp-block-cover.alignfull {
-  min-height: 80vh;
+  min-height: 90vh !important;
   background-position: center;
   background-size: cover;
 }
@@ -109,7 +113,7 @@ body:not(.overlay-header) .primary-menu > li > .icon,
 }
 .wp-block-cover,
 .wp-block-cover:after {
-  height: 80vh;
+  height: 60vh;
 }
 .wp-block-cover {
   background-size: cover;
@@ -180,6 +184,11 @@ body:not(.overlay-header) .primary-menu > li > .icon,
   max-width: 100% !important;
   margin: 0px !important;
   padding: 2rem 20% !important;
+}
+@media (max-width: 700px) {
+  .wp-block-group {
+    padding: 2rem 10% !important;
+  }
 }
 .wp-block-group:nth-of-type(even) {
   background-color: var(--whiteColor) !important;
@@ -302,18 +311,29 @@ body:not(.overlay-header) .primary-menu > li > .icon,
 .hover-icons .wp-block-image figure,
 .hover-icons .wp-block-image .gatsby-image-wrapper  {
   width: 238px !important;
-  margin: 0px !important;
+  margin: 0px auto !important;
 }
+.hover-icons .wp-block-image,
 .hover-icons .wp-block-image img {
   width: 200px !important;
-  height: 200px !important;
-  left: 20px !important;
+  height: 160px !important;
   object-fit: contain !important;
+}
+@media (max-width: 700px) {
+  .hover-icons .wp-block-image,
+  .hover-icons .wp-block-image img {
+    height: 100px !important;
+  }
 }
 .hover-icons p {
   padding: 1rem;
-  height: 100px;
-  margin-top: 0px;
+  height: 140px;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+.hover-icons .wp-block-buttons,
+.hover-icons .wp-block-buttons .wp-block-button {
+  margin-top: 0px !important;
 }
 
 /* BLOG GROUP */
@@ -322,25 +342,30 @@ body:not(.overlay-header) .primary-menu > li > .icon,
   margin: 0px !important;
   padding: 0px !important;
   border: 0px !important;
+  line-height: 50%;
 }
 @media (min-width: 700px) {
   .wp-block-latest-posts.columns-4 li {
     width: 25% !important;
   }
 }
-.wp-block-latest-posts.columns-4 li {
-  margin-bottom: -60px !important;
-}
 .wp-block-latest-posts.columns-4 li a {
   position: relative;
-  top: -60px;
-  left: 4px;
-  color: white;
+  left: 8px;
+  top: -40px;
+  width: 80%;
+  color: var(--whiteColor);
+  font-size: 1.25rem;
+  line-height: normal;
+  text-shadow: 0px 1px 2px rgba(150, 150, 150, 1);
 }
 .wp-block-latest-posts.columns-4 li time {
   position: relative;
   top: -60px;
   left: 4px;
+}
+.wp-block-latest-posts__list {
+  background-color: var(--tertiaryColor);
 }
 
 /* OUR STAFF */

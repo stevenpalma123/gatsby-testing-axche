@@ -25,21 +25,23 @@ const Archive = (props) => {
       <header className="blog-header has-text-align-center header-footer-group">
         <div className="blog-header-inner section-inner medium">
           <h1 className="entry-title">
-            Blog
+            News
           </h1>
         </div>
       </header>
 
-      {nodes &&
-      nodes.map((post, index) => {
-        return (
-          <PostPreview
-            key={index}
-            post={post}
-            isLast={index === nodes.length - 1}
-          />
-        )
-      })}
+      <div className="blog-roll-wrapper">
+        {nodes &&
+        nodes.map((post, index) => {
+          return (
+            <PostPreview
+              key={index}
+              post={post}
+              isLast={index === nodes.length - 1}
+            />
+          )
+        })}
+      </div>
 
       <ArchivePagination {...pageInfo} archivePath={archivePath} />
     </Layout>

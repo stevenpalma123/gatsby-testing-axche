@@ -81,6 +81,21 @@ button, .button, .faux-button, .wp-block-button__link, .wp-block-file .wp-block-
   margin-top: var(--marginTop) !important;
   margin-bottom: var(--marginBottom) !important;
 }
+.hover-icons p {
+  padding: 1rem;
+  height: auto !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+@media (max-width: 700px) {
+  .hover-icons p {
+    height: 80px;
+    margin-bottom: 1rem !important;
+  }
+  .hover-icons .wp-block-buttons {
+    margin-bottom: 2rem !important;
+  }
+}
 .entry-content p {
   font-size: 1.75rem;
 }
@@ -464,4 +479,74 @@ ul.social-icons {
 }
 .get-involved .wp-block-column p {
   font-size: 1.25rem !important;
+}
+
+/* BLOG ROLL */
+.blog-roll-wrapper {
+  width: 80%;
+  margin: 4rem auto;
+}
+.blog-roll-wrapper h2.entry-title {
+  font-size: 3rem;
+}
+.blog-roll-wrapper .post-meta-wrapper {
+  display: none;
+}
+
+/* BLOG POSTS */
+.singular .featured-media-inner {
+  position: relative;
+  width: 100% !important;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.singular .featured-media::before {
+  background: black;
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  opacity: 0.5;
+}
+.singular .featured-media-inner .gatsby-image-wrapper {
+  max-width: none;
+  margin: 0px !important;
+}
+.post-inner h1.entry-title {
+  width: 80%;
+  margin: 2rem auto 6rem;
+  font-size: 5rem;
+  text-align: center;
+}
+@media (max-width: 700px) {
+  .post-inner h1.entry-title {
+    font-size: 3rem;
+  }
+}
+.post-inner .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+  width: 60%;
+  max-width: 60%;
+  margin: 2rem auto 6rem;
+}
+@media (max-width: 700px) {
+  .post-inner .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+    width: 80%;
+    max-width: 80%;
+    margin: 2rem auto 6rem;
+  }
+}
+.pagination-single-inner .title-inner,
+.pagination-single-inner .arrow {
+  color: var(--primaryColor);
+  font-size: 2rem;
+}
+@media(max-width: 700px) {
+  .pagination-single-inner .title-inner,
+  .pagination-single-inner .arrow {
+    font-size: 1.25rem;
+  }
 }
