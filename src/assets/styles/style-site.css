@@ -240,6 +240,14 @@ main#site-content {
 .modal-menu li.current_page_ancestor > .ancestor-wrapper > a:hover {
   text-decoration: underline !important;
 }
+@media (max-width: 800px) {
+  .menu-modal li.menu-item {
+    text-align: center;
+  }
+  .menu-modal li.menu-item a {
+    font-size: 2.5rem !important;
+  }
+}
 .modal-menu ul.social-menu {
   justify-content: center !important;
 }
@@ -402,6 +410,19 @@ ul.social-icons {
 .contact-page ul.form-field-wrapper.actions li button {
   width: 100%;
 }
+.contact-page button {
+  width: 100%;
+  margin-top: 2rem;
+  background-color: var(--primaryColor) !important;
+}
+.contact-page button:hover {
+  width: 100%;
+  margin-top: 2rem;
+  background-color: var(--secondaryColor) !important;
+}
+.contact-page label {
+  margin-top: 2rem;
+}
 
 /* DONATE WIDGET */
 .donate-widget {
@@ -489,7 +510,8 @@ ul.social-icons {
 .blog-roll-wrapper h2.entry-title {
   font-size: 3rem;
 }
-.blog-roll-wrapper .post-meta-wrapper {
+.blog-roll-wrapper .post-meta-wrapper,
+.blog-roll-wrapper .entry-categories {
   display: none;
 }
 
@@ -543,6 +565,9 @@ ul.social-icons {
 .pagination-single-inner .arrow {
   color: var(--primaryColor);
   font-size: 2rem;
+}
+.pagination-single-inner a:hover{
+  color: var(--primaryColor);
 }
 @media(max-width: 700px) {
   .pagination-single-inner .title-inner,
