@@ -9,11 +9,11 @@ import PostMeta from "../../components/PostMeta"
 import PostCategories from "../../components/PostCategories"
 import FeaturedMedia from "../../components/FeaturedMedia"
 
-export default ({ data }) => {
+const post = ({ data }) => {
   const { nextPage, previousPage, page } = data
   const {
     title,
-    content,
+    Blocks,
     featuredImage,
     categories,
     excerpt,
@@ -42,7 +42,7 @@ export default ({ data }) => {
           />
           <div
             className="entry-content"
-            dangerouslySetInnerHTML={{ __html: content }}
+            dangerouslySetInnerHTML={{ __html: Blocks }}
           />
         </div>
 
@@ -75,3 +75,5 @@ export const query = graphql`
     }
   }
 `
+
+export default post;
