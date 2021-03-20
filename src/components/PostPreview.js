@@ -30,12 +30,23 @@ const PostPreview = ({ post, isLast }) => {
           </div>
         </header>
 
-        <FeaturedMedia image={post.featuredImage} />
+        <Link
+          to={post.uri}
+        >
+          <FeaturedMedia image={post.featuredImage} />
+        </Link>
 
         <div className="post-inner thin ">
           <div className="entry-content">
             <div dangerouslySetInnerHTML={{ __html: post.excerpt }} />
           </div>
+
+          <Link
+            to={post.uri}
+          >
+            Read More
+          </Link>
+
         </div>
       </article>
 

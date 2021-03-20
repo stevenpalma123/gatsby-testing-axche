@@ -115,3 +115,12 @@ body:not(.overlay-header) .primary-menu > li > .icon,
   color: var(--whiteColor);
   text-shadow: 0px 0px 4px rgba(150, 150, 150, 1);
 }
+
+/* BLOG */
+.blog-roll-wrapper .post-inner a {
+  color: var(--primaryColor);
+  margin: auto;
+  display: block;
+  width: 200px;
+  text-align: center;
+}
