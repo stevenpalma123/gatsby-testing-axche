@@ -37,3 +37,7 @@
 .contact-page button:hover {
   background-color: var(--secondaryColor);
 }
+.contact-page .contact-info {
+  text-align: center;
+  margin: 2rem;
+}

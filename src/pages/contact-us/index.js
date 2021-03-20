@@ -49,6 +49,10 @@ const ContactPage = () => {
         </div>
       </header>
       <div className="contact-page">
+        <div>
+          <p className="contact-info">(+501) 722-0108</p>
+          <p className="contact-info">P.O. BOX 177, OGALDEZ ST, PUNTA GORDA TOWN, TOLEDO DISTRICT, BELIZE, C.A.</p>
+        </div>
         <div className="contact-form">
           <NetlifyForm
             formName="Contact"

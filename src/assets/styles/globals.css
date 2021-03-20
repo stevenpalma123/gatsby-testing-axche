@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
 :root {
   /* COLORS */
   --primaryColor: #1B5C22;
@@ -14,8 +16,8 @@
   --backgroundSize: 200px;
 
   /* TYPOGRAPHY */
-  --headerFontFace: sans-serif;
-  --bodyFontFace: sans-serif;
+  --headerFontFace: Lato;
+  --bodyFontFace: Lato;
   --footerJustifyContent: center;
 
   /* RESPONSIVE BREAKPOINTS & FIXES */

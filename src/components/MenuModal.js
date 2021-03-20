@@ -19,7 +19,7 @@ const MenuModal = ({ isActive, toggleBackdrop }) => {
               node {
                 ... on WpContentNode {
                   uri
-                } 
+                }
               }
             }
           }
@@ -50,7 +50,7 @@ const MenuModal = ({ isActive, toggleBackdrop }) => {
               data-set-focus=".menu-modal"
               onClick={(e) => toggleBackdrop(e, false)}
             >
-              <span className="toggle-text">Close Menu</span>
+              
               <CloseIcon />
             </button>
 

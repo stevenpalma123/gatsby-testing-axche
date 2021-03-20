@@ -109,7 +109,7 @@ body:not(.overlay-header) .primary-menu > li > .icon,
 .wp-block-cover > * {
   z-index: 2;
   color: var(--whiteColor);
-  text-shadow: 0px 0px 4px rgba(150, 150, 150, 1);
+  /* text-shadow: 0px 0px 4px rgba(150, 150, 150, 1); */
 }
 .wp-block-cover,
 .wp-block-cover:after {
@@ -133,7 +133,7 @@ body:not(.overlay-header) .primary-menu > li > .icon,
 }
 .wp-block-cover h2 {
   font-size: 3rem;
-  text-shadow: 1px 1px 4px rgba(255,255,255, 0.7);;
+  /* text-shadow: 1px 1px 4px rgba(255,255,255, 0.7);; */
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -255,7 +255,7 @@ body:not(.overlay-header) .primary-menu > li > .icon,
   color: white !important;
   text-decoration: none !important;
   font-weight: 400;
-  text-shadow: 0px 1px 2px rgba(150, 150, 150, 1);
+  /* text-shadow: 0px 1px 2px rgba(150, 150, 150, 1); */
 }
 .wp-block-columns.alignfull .wp-block-column .wp-block-cover ul li {
   font-size: 1.25rem;
@@ -357,7 +357,7 @@ body:not(.overlay-header) .primary-menu > li > .icon,
   color: var(--whiteColor);
   font-size: 1.25rem;
   line-height: normal;
-  text-shadow: 0px 1px 2px rgba(150, 150, 150, 1);
+  /* text-shadow: 0px 1px 2px rgba(150, 150, 150, 1); */
 }
 .wp-block-latest-posts.columns-4 li time {
   position: relative;
@@ -366,6 +366,41 @@ body:not(.overlay-header) .primary-menu > li > .icon,
 }
 .wp-block-latest-posts__list {
   background-color: var(--tertiaryColor);
+}
+.blog-roll-wrapper .entry-categories-inner a {
+  display: none !important;
+}
+.blog-roll-wrapper h2.entry-title {
+  font-size: 3rem !important;
+  padding-top: 4rem;
+}
+.blog-header-inner h1.entry-title {
+  font-size: 4rem !important;
+}
+.blog-roll-wrapper .post-inner a {
+  color: var(--primaryColor);
+  margin: auto;
+}
+.blog-roll-wrapper .post-inner a {
+  color: var(--primaryColor);
+  margin: auto;
+  display: block;
+  width: 200px;
+  text-align: center;
+}
+
+/* BLOG POSTS */
+article.post h1.entry-title {
+  font-size: 4rem;
+  max-width: 80%;
+  margin: 20px auto;
+}
+.pagination-single-inner a {
+  color: var(--primaryColor);
+}
+nav.pagination span,
+nav.pagination a {
+  color: var(--primaryColor);
 }
 
 /* OUR STAFF */

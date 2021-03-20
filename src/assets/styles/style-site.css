@@ -204,6 +204,12 @@ main#site-content {
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
 } */
+.toggle-icon {
+  visibility: hidden !important;
+}
+.header-inner .toggle-text {
+  margin-top: -26px !important;
+}
 
 /* MODAL MENU */
 .menu-modal-inner {
@@ -217,6 +223,10 @@ main#site-content {
 .fill-children-current-color, .fill-children-current-color * {
   color: var(--tertiaryColor) !important;
   fill: var(--tertiaryColor) !important;
+}
+.close-nav-toggle .fill-children-current-color .svg-icon  {
+  color: var(--whiteColor) !important;
+  fill: var(--whiteColor) !important;
 }
 .menu-modal-inner .social-icons a {
   background: var(--whiteColor);
@@ -378,4 +388,30 @@ ul.social-icons {
     width: 5rem;
     height: 5rem;
   }
+}
+
+/* DONATE WIDGET */
+.donate-widget {
+  display: flex !important;
+  position: fixed !important;
+  right: -104px !important;
+  top: 50% !important;
+  color: var(--whiteColor) !important;
+  background-color: var(--primaryColor) !important;
+  padding: 20px 30px 14px 14px !important;
+  margin-bottom: -4px !important;
+  border-radius: 10px !important;
+}
+.donate-widget:hover {
+  right: -10px !important;
+}
+.donate-widget img {
+  max-width: 40px !important;
+  margin-right: 18px !important;
+  margin-top: -8px !important;
+}
+
+/* SPECIFIC FIXES */
+.wp-image-3562.gatsby-image-wrapper {
+  width: 412px !important;
 }
