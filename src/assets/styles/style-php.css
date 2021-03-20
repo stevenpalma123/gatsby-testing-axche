@@ -117,6 +117,7 @@ body:not(.overlay-header) .primary-menu > li > .icon,
 }
 
 /* BLOG */
+.blog .post-inner a,
 .blog-roll-wrapper .post-inner a {
   color: var(--primaryColor);
   margin: auto;
