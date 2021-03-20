@@ -415,3 +415,11 @@ ul.social-icons {
 .wp-image-3562.gatsby-image-wrapper {
   width: 412px !important;
 }
+.post-1407 .wp-block-columns.alignfull {
+  width: 80% !important;
+  max-height: none !important;
+  margin: 0 auto !important;
+}
+.post-1407 .wp-block-columns.alignfull a {
+  color: var(--primaryColor) !important;
+}
