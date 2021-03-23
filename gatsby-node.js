@@ -54,7 +54,7 @@ exports.createResolvers = async ({
         async resolve(source) {
           let sourceUrl = source.url
 
-          return await createlocalFileNode({
+          return await createRemoteFileNode({
             url: encodeURI(sourceUrl),
             store,
             cache,
