@@ -34,7 +34,7 @@ exports.createPages = async (props) => {
   await createAuthors(props, { perPage })
 }
 
-const { createlocalFileNode } = require(`gatsby-source-filesystem`)
+const { createRemoteFileNode } = require(`gatsby-source-filesystem`)
 
 // We do this, because the Avatar doesn't get handled as a File from the gatsby-source plugin yet. This might change in the future.
 exports.createResolvers = async ({
