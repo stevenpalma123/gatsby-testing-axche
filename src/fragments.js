@@ -35,7 +35,7 @@ export const fragments = graphql`
     date(formatString: "LL")
     featuredImage {
       node {
-        localFile {
+        remoteFile {
           ...Thumbnail
         }
       }
@@ -64,7 +64,7 @@ export const fragments = graphql`
     excerpt
     featuredImage {
       node {
-        localFile {
+        remoteFile {
           ...HeroImage
         }
       }
@@ -101,7 +101,7 @@ export const fragments = graphql`
     databaseId
     featuredImage {
       node {
-        localFile {
+        remoteFile {
           ...HeroImage
         }
       }

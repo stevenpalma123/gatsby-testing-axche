@@ -402,7 +402,8 @@ ul.social-icons {
   margin-bottom: -4px !important;
   border-radius: 10px !important;
 }
-.donate-widget:hover {
+.donate-widget:hover,
+.donate-widget img:hover {
   right: -10px !important;
 }
 .donate-widget img {
@@ -422,4 +423,18 @@ ul.social-icons {
 }
 .post-1407 .wp-block-columns.alignfull a {
   color: var(--primaryColor) !important;
+}
+.post-2015 .wp-block-cover:first-of-type {
+  padding: 0px !important;
+}
+.post-2015 .wp-block-cover__image-background img {
+  width: 100% !important;
+  object-fit: cover !important;
+}
+.post-2015 .wp-block-cover__image-background .wp-block-cover__inner-container {
+  position: relative;
+  top: -75%;
+}
+.post-2015 .wp-block-cover__image-background {
+  display: contents;
 }
