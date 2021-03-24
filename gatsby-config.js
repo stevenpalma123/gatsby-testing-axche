@@ -64,6 +64,12 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: "gatsby-plugin-google-analytics",
+      options: {
+        trackingId: config.siteGATrackingID
+      }
+    },
     // `gatsby-theme-wordpress-gutenberg`,
     `gatsby-transformer-sharp`,
     {

@@ -445,3 +445,13 @@ nav.pagination a {
 img {
   object-fit: contain !important;
 }
+
+/* BLOG */
+.blog .post-inner a,
+.blog-roll-wrapper .post-inner a {
+  color: var(--primaryColor);
+  margin: auto;
+  display: block;
+  width: 200px;
+  text-align: center;
+}
