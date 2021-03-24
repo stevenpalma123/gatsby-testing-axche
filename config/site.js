@@ -9,6 +9,7 @@ module.exports = {
   siteLanguage: 'en', // Language Tag on <html> element
   logo: 'src/assets/images/logo.png', // Used for SEO
   banner: 'src/assets/images/banner.png',
+  siteGATrackingID: 'GA-XXXXXXXX-X',
   // JSONLD / Manifest
   favicon: 'src/assets/images/favicon.png', // Used for manifest favicon generation
   shortName: 'example', // shortname for manifest. MUST be shorter than 12 characters
