@@ -14,6 +14,12 @@ module.exports = {
     ...config,
   },
   plugins: [
+    {
+      resolve: "gatsby-plugin-google-analytics",
+      options: {
+        trackingId: config.siteGATrackingID
+      }
+    },
     `gatsby-plugin-notifications`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
@@ -63,12 +69,6 @@ module.exports = {
           },
         },
       },
-    },
-    {
-      resolve: "gatsby-plugin-google-analytics",
-      options: {
-        trackingId: config.siteGATrackingID
-      }
     },
     // `gatsby-theme-wordpress-gutenberg`,
     `gatsby-transformer-sharp`,
