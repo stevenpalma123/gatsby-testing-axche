@@ -20,7 +20,7 @@
     "@wordpress/block-library": "^2.1.0",
     "cache-manager-fs-hash": "^0.0.9",
     "dotenv": "^8.2.0",
-    "gatsby": "^2.32.3",
+    "gatsby": "^3.0.0",
     "gatsby-image": "^2.11.0",
     "gatsby-plugin-catch-links": "^2.5.0",
     "gatsby-plugin-google-analytics": "^3.1.0",
