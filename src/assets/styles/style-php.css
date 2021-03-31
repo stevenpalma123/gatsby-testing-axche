@@ -140,3 +140,9 @@ body:not(.overlay-header) .primary-menu > li > .icon,
 .wp-block-cover.alignfull.has-background-dim.banner-background > .wp-block-cover__image-background > picture > img {
   object-fit: cover !important;
 }
+.wp-block-cover.alignfull.has-background-dim > * {
+  z-index: 100 !important;
+}
+.wp-block-cover.has-background-dim:after {
+  z-index: 100 !important;
+}
