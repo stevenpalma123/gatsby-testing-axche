@@ -125,3 +125,18 @@ body:not(.overlay-header) .primary-menu > li > .icon,
   width: 200px;
   text-align: center;
 }
+
+/* COVER BLOCK FIX */
+.wp-block-cover.alignfull.has-background-dim.banner-background {
+  padding: 0px !important;
+}
+.wp-block-cover.alignfull.has-background-dim.banner-background > .wp-block-cover__image-background {
+  position: unset !important;
+  overflow: visible !important;
+}
+.wp-block-cover.alignfull.has-background-dim.banner-background > .wp-block-cover__image-background > span {
+  display: contents !important;
+}
+.wp-block-cover.alignfull.has-background-dim.banner-background > .wp-block-cover__image-background > picture > img {
+  object-fit: cover !important;
+}
