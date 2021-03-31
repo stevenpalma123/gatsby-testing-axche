@@ -44,7 +44,7 @@ const ContactPage = () => {
       <header className="blog-header has-text-align-center header-footer-group">
         <div className="blog-header-inner section-inner medium">
           <h1 className="entry-title">
-            What brought you here?
+            Contact Us
           </h1>
         </div>
       </header>
