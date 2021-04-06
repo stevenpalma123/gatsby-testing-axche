@@ -126,7 +126,14 @@ body:not(.overlay-header) .primary-menu > li > .icon,
   text-align: center;
 }
 
-/* COVER BLOCK FIX */
+/* COVER BLOCK FIX - NOT BANNER BACKGROUND */
+.wp-block-cover__image-background.inline-gatsby-image-wrapper.gatsby-image-wrapper {
+  position: static !important;
+}
+.wp-block-cover__image-background.inline-gatsby-image-wrapper.gatsby-image-wrapper img {
+  object-fit: cover !important;
+}
+/* COVER BLOCK FIX - ALIGNFULL - BANNER BACKGROUND */
 .wp-block-cover.alignfull.has-background-dim.banner-background {
   padding: 0px !important;
 }
@@ -145,4 +152,14 @@ body:not(.overlay-header) .primary-menu > li > .icon,
 }
 .wp-block-cover.has-background-dim:after {
   z-index: 100 !important;
+}
+
+/* HEADER MENU FIX */
+#site-header {
+  z-index: 2000 !important;
+}
+@media (min-width: 1000px) {
+  #site-header {
+    z-index: 2000 !important;
+  }
 }
