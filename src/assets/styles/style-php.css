@@ -456,7 +456,14 @@ img {
   text-align: center;
 }
 
-/* COVER BLOCK FIX */
+/* COVER BLOCK FIX - NOT BANNER BACKGROUND */
+.wp-block-cover__image-background {
+  position: static !important;
+}
+.wp-block-cover__image-background img {
+  object-fit: cover !important;
+}
+/* COVER BLOCK FIX - ALIGNFULL - BANNER BACKGROUND */
 .wp-block-cover.alignfull.has-background-dim.banner-background {
   padding: 0px !important;
 }
@@ -485,4 +492,9 @@ img {
   #site-header {
     z-index: 2000 !important;
   }
+}
+
+/* MODAL MENU FIX */
+.menu-modal.show-modal {
+  z-index: 4000 !important;
 }
