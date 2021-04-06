@@ -127,10 +127,10 @@ body:not(.overlay-header) .primary-menu > li > .icon,
 }
 
 /* COVER BLOCK FIX - NOT BANNER BACKGROUND */
-.wp-block-cover__image-background.inline-gatsby-image-wrapper.gatsby-image-wrapper {
+.wp-block-cover__image-background {
   position: static !important;
 }
-.wp-block-cover__image-background.inline-gatsby-image-wrapper.gatsby-image-wrapper img {
+.wp-block-cover__image-background img {
   object-fit: cover !important;
 }
 /* COVER BLOCK FIX - ALIGNFULL - BANNER BACKGROUND */
@@ -162,4 +162,9 @@ body:not(.overlay-header) .primary-menu > li > .icon,
   #site-header {
     z-index: 2000 !important;
   }
+}
+
+/* MODAL MENU FIX */
+.menu-modal.show-modal {
+  z-index: 4000 !important;
 }
