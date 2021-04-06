@@ -476,3 +476,13 @@ img {
 .wp-block-cover.has-background-dim:after {
   z-index: 100 !important;
 }
+
+/* HEADER MENU FIX */
+#site-header {
+  z-index: 2000 !important;
+}
+@media (min-width: 1000px) {
+  #site-header {
+    z-index: 2000 !important;
+  }
+}
