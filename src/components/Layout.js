@@ -27,6 +27,10 @@ const Layout = ({ children, bodyClass }) => {
         (backdropActive ? backdropClasses : "")
       }
     >
+      <Helmet>
+        <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/7ec7b01a836d1c8f6306bcea7/17cbdcdd8a4789505b0220949.js");</script>
+      </Helmet>
+      
       <Header toggleBackdrop={toggleBackdrop} />
 
       <MenuModal isActive={backdropActive} toggleBackdrop={toggleBackdrop} />
@@ -49,7 +53,7 @@ const Layout = ({ children, bodyClass }) => {
         <p className="has-text-align-center">Get exclusive updates about our work</p>
         <div className="wp-block-buttons aligncenter">
           <div className="wp-block-button">
-            <a className="wp-block-button__link">JOIN OUR MAILING LIST</a>
+            <a className="wp-block-button__link" href="#">JOIN OUR MAILING LIST</a>
             <SocialMenu />
           </div>
         </div>

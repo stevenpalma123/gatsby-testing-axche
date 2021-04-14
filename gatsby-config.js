@@ -29,6 +29,7 @@ module.exports = {
         },
       },
     },
+    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-notifications`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
