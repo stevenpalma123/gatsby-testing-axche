@@ -6,7 +6,7 @@ import './subscribe.css'
 
 import addToMailchimp from "gatsby-plugin-mailchimp"
 
-export default class IndexPage extends React.Component {
+export default class SubscribePage extends React.Component {
     state = {
         name: null,
         email: null,

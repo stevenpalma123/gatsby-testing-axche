@@ -49,7 +49,7 @@ const Layout = ({ children, bodyClass }) => {
         <p className="has-text-align-center">Get exclusive updates about our work</p>
         <div className="wp-block-buttons aligncenter">
           <div className="wp-block-button">
-            <a className="wp-block-button__link" href="#">JOIN OUR MAILING LIST</a>
+            <a className="wp-block-button__link" href="/subscribe">JOIN OUR MAILING LIST</a>
             <SocialMenu />
           </div>
         </div>
