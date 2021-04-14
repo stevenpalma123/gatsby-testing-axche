@@ -29,7 +29,13 @@ module.exports = {
         },
       },
     },
-    `gatsby-plugin-react-helmet`,
+    {
+      "resolve": "gatsby-plugin-mailchimp",
+      "options": {
+        "endpoint": "https://yaaxche.us1.list-manage.com/subscribe/post?u=7ec7b01a836d1c8f6306bcea7&amp;id=7ce41dbb2c",
+        "timeout": 3500
+      }
+    },
     `gatsby-plugin-notifications`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
