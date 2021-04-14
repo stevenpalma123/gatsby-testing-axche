@@ -3,6 +3,7 @@ import Header from "./Header"
 import Footer from "./Footer"
 import SocialMenu from "./SocialMenu"
 import theme from '../../config/theme'
+import { Helmet } from "react-helmet"
 
 import FooterWidgets from "./FooterWidgets"
 import MenuModal from "./MenuModal"
@@ -30,7 +31,7 @@ const Layout = ({ children, bodyClass }) => {
       <Helmet>
         <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/7ec7b01a836d1c8f6306bcea7/17cbdcdd8a4789505b0220949.js");</script>
       </Helmet>
-      
+
       <Header toggleBackdrop={toggleBackdrop} />
 
       <MenuModal isActive={backdropActive} toggleBackdrop={toggleBackdrop} />
