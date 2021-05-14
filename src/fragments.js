@@ -3,27 +3,19 @@ import { graphql } from "gatsby"
 export const fragments = graphql`
   fragment HeroImage on File {
     childImageSharp {
-      fluid(maxWidth: 1440) {
-        ...GatsbyImageSharpFluid_withWebp_tracedSVG
-        presentationWidth
-      }
+      gatsbyImageData(layout: CONSTRAINED, quality: 90)
     }
   }
 
   fragment AvatarImage on File {
     childImageSharp {
-      fixed(width: 80, height: 80) {
-        ...GatsbyImageSharpFixed_withWebp_tracedSVG
-      }
+      gatsbyImageData(layout: FIXED, width: 80, height: 80, quality: 90)
     }
   }
 
   fragment Thumbnail on File {
     childImageSharp {
-      fluid(maxWidth: 1200) {
-        ...GatsbyImageSharpFluid_withWebp_tracedSVG
-        presentationWidth
-      }
+      gatsbyImageData(layout: CONSTRAINED, quality: 90)
     }
   }
 
@@ -35,6 +27,7 @@ export const fragments = graphql`
     date(formatString: "LL")
     featuredImage {
       node {
+        altText
         localFile {
           ...Thumbnail
         }
@@ -59,13 +52,20 @@ export const fragments = graphql`
 
   fragment PostContent on WpPost {
     title
+    uri
     content
     date(formatString: "LL")
     excerpt
     featuredImage {
       node {
+        altText
         localFile {
           ...HeroImage
+          publicURL
+        }
+        mediaDetails {
+          width
+          height
         }
       }
     }
@@ -97,12 +97,19 @@ export const fragments = graphql`
 
   fragment PageContent on WpPage {
     title
+    uri
     content
     databaseId
     featuredImage {
       node {
+        altText
         localFile {
           ...HeroImage
+          publicURL
+        }
+        mediaDetails {
+          width
+          height
         }
       }
     }

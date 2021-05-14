@@ -29,6 +29,7 @@ module.exports = {
         },
       },
     },
+    `gatsby-plugin-image`,
     `gatsby-plugin-notifications`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
@@ -40,7 +41,6 @@ module.exports = {
         path: `${__dirname}/src/assets/images`,
       },
     },
-    `gatsby-plugin-netlify-cache`,
     {
       resolve: `gatsby-source-wordpress`,
       options: {
