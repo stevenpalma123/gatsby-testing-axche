@@ -501,5 +501,6 @@ img {
 
 /* POST IMAGE FIX */
 .type-post .post-inner .entry-content .wp-block-image {
-  display: unset !important;
+  display: block;
+  margin: auto;
 }
