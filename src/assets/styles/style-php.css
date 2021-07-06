@@ -498,3 +498,8 @@ img {
 .menu-modal.show-modal {
   z-index: 4000 !important;
 }
+
+/* POST IMAGE FIX */
+.type-post .post-inner .entry-content .wp-block-image {
+  display: unset !important;
+}
