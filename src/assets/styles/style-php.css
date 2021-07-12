@@ -508,3 +508,17 @@ img {
 .wp-block-gallery {
   margin: auto !important;
 }
+article.post h1.entry-title {
+  text-align: center;
+}
+
+/* BUTTON FIX */
+.wp-block-buttons.is-content-justification-center {
+  text-align: center;
+}
+
+/* BLOG ROLL - LATEST POSTS FIX */
+.entry-content .wp-block-latest-posts * {
+  object-fit: cover !important;
+  height: 180px !important;
+}
