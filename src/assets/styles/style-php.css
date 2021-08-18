@@ -522,3 +522,8 @@ article.post h1.entry-title {
   object-fit: cover !important;
   height: 180px !important;
 }
+
+/* OUR TEAM */
+#post-790 .wp-block-image figure.aligncenter.size-full {
+  width: auto !important;
+}
