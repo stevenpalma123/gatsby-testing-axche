@@ -526,4 +526,5 @@ article.post h1.entry-title {
 /* OUR TEAM */
 #post-790 .wp-block-image figure.aligncenter.size-full {
   display: table !important;
+  width: auto !important;
 }
