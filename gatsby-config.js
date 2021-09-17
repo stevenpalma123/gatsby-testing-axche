@@ -1,4 +1,10 @@
 const config = require('./config/site')
+
+
+require("dotenv").config({
+  path: `.env`,
+})
+
 const activeEnv = process.env.GATSBY_ACTIVE_ENV || process.env.NODE_ENV || "production"
 
 console.log(`Using environment config: '${activeEnv}'`)

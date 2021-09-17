@@ -3,8 +3,8 @@ module.exports = {
   title: 'Ya\'axché Conservation Trust', // Navigation and Site Title
   titleAlt: 'Ya\'axché Conservation Trust', // Title for JSONLD
   description: 'Ya\'axché Conservation Trust',
-  url: 'https://yaaxche.org', // Domain of your site. No trailing slash!
-  siteUrl: 'https://yaaxche.org', // url + pathPrefix
+  url: 'http://www.yaaxche.org.php74-42.lan3-1.websitetestlink.com', // Domain of your site. No trailing slash!
+  siteUrl: 'http://www.yaaxche.org.php74-42.lan3-1.websitetestlink.com', // url + pathPrefix
   blogUri: '/news',
   siteLanguage: 'en', // Language Tag on <html> element
   logo: 'src/assets/images/logo.png', // Used for SEO
